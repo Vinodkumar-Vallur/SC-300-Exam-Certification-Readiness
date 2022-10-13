@@ -1,0 +1,74 @@
+APPLIEDIS+Vinod.Vallur@LI1093 MINGW64 /d/Microsoft and AWS Certifications/Microsoft Security Certifications/SC-300 (master)
+$ git clone https://github.com/Vinodkumar-Vallur/SC-300-Exam-Certification-Readiness.git
+Cloning into 'SC-300-Exam-Certification-Readiness'...
+warning: You appear to have cloned an empty repository.
+
+APPLIEDIS+Vinod.Vallur@LI1093 MINGW64 /d/Microsoft and AWS Certifications/Microsoft Security Certifications/SC-300
+$ echo "# SC-300-Exam-Certification-Readiness" >> README.md
+
+APPLIEDIS+Vinod.Vallur@LI1093 MINGW64 /d/Microsoft and AWS Certifications/Microsoft Security Certifications/SC-300
+$ git init
+Initialized empty Git repository in D:/Microsoft and AWS Certifications/Microsoft Security Certifications/SC-300/.git/
+
+APPLIEDIS+Vinod.Vallur@LI1093 MINGW64 /d/Microsoft and AWS Certifications/Microsoft Security Certifications/SC-300 (master)
+$ git add README.md
+warning: in the working copy of 'README.md', LF will be replaced by CRLF the next time Git touches it
+
+APPLIEDIS+Vinod.Vallur@LI1093 MINGW64 /d/Microsoft and AWS Certifications/Microsoft Security Certifications/SC-300 (master)
+$ git commit -m "first commit"
+[master (root-commit) dfc5bc2] first commit
+ 1 file changed, 1 insertion(+)
+ create mode 100644 README.md
+
+APPLIEDIS+Vinod.Vallur@LI1093 MINGW64 /d/Microsoft and AWS Certifications/Microsoft Security Certifications/SC-300 (master)
+$ git branch -M main
+
+APPLIEDIS+Vinod.Vallur@LI1093 MINGW64 /d/Microsoft and AWS Certifications/Microsoft Security Certifications/SC-300 (main)
+$ git remote add origin https://github.com/Vinodkumar-Vallur/SC-300-Exam-Certification-Readiness.git
+
+APPLIEDIS+Vinod.Vallur@LI1093 MINGW64 /d/Microsoft and AWS Certifications/Microsoft Security Certifications/SC-300 (main)
+$ git push -u origin main
+Enumerating objects: 3, done.
+Counting objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 260 bytes | 260.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0), pack-reused 0
+To https://github.com/Vinodkumar-Vallur/SC-300-Exam-Certification-Readiness.git
+ * [new branch]      main -> main
+branch 'main' set up to track 'origin/main'.
+
+APPLIEDIS+Vinod.Vallur@LI1093 MINGW64 /d/Microsoft and AWS Certifications/Microsoft Security Certifications/SC-300 (main)
+$ git add Readiness Plan.xlsx
+fatal: pathspec 'Readiness' did not match any files
+
+APPLIEDIS+Vinod.Vallur@LI1093 MINGW64 /d/Microsoft and AWS Certifications/Microsoft Security Certifications/SC-300 (main)
+$ git add ReadinessPlan.xlsx
+
+APPLIEDIS+Vinod.Vallur@LI1093 MINGW64 /d/Microsoft and AWS Certifications/Microsoft Security Certifications/SC-300 (main)
+$ git push -u origin main
+Everything up-to-date
+branch 'main' set up to track 'origin/main'.
+
+APPLIEDIS+Vinod.Vallur@LI1093 MINGW64 /d/Microsoft and AWS Certifications/Microsoft Security Certifications/SC-300 (main)
+$ git add SC-300.pdf
+
+APPLIEDIS+Vinod.Vallur@LI1093 MINGW64 /d/Microsoft and AWS Certifications/Microsoft Security Certifications/SC-300 (main)
+$ git commit -m "second commit"
+[main 2bdfaae] second commit
+ 2 files changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 ReadinessPlan.xlsx
+ create mode 100644 SC-300.pdf
+
+APPLIEDIS+Vinod.Vallur@LI1093 MINGW64 /d/Microsoft and AWS Certifications/Microsoft Security Certifications/SC-300 (main)
+$ git push -u origin main
+Enumerating objects: 5, done.
+Counting objects: 100% (5/5), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (4/4), done.
+Writing objects: 100% (4/4), 2.39 MiB | 2.93 MiB/s, done.
+Total 4 (delta 0), reused 0 (delta 0), pack-reused 0
+To https://github.com/Vinodkumar-Vallur/SC-300-Exam-Certification-Readiness.git
+   dfc5bc2..2bdfaae  main -> main
+branch 'main' set up to track 'origin/main'.
+
+APPLIEDIS+Vinod.Vallur@LI1093 MINGW64 /d/Microsoft and AWS Certifications/Microsoft Security Certifications/SC-300 (main)
+$
